@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation menu */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 71px;
+    margin: 10px;
+    
+
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul{
+    display: flex;
+    /* display: block; */
+    margin: auto;
+}
+#navbar ul li{ 
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 8px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0px 22px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.3rem;
+}
+#navbar ul li a:hover{
+    color: grey;
+    background-color: white;
+}
+#home::before{
+    content: "";
+    background: url('https://media.istockphoto.com/photos/modern-luxury-dark-living-room-interior-background-with-grey-armchair-picture-id1255016513?b=1&k=20&m=1255016513&s=170667a&w=0&h=nhDnucrXOjlAoRlzDaTgXo29nh4llfacT0veygGp-ZA=')no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    right: 0px;
+    height: 106vh;
+    width:100%;
+    z-index: -1;
+    /* opacity: 02; */
+}
+
+
+#home p,a{
+    margin: auto;
+    font-size: 2.1rem;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin: 12px;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive
+}
+.header{
+    font-size: 2.66rem;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    margin-top:33vh ;
+}
