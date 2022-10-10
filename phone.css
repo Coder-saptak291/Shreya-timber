@@ -1,0 +1,161 @@
+/* Navigation */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    /* top: 0px; */
+    height: 21px;
+    margin: 10px;
+}
+
+#navbar ul li a {
+    font-size: 0.6rem;
+    padding: 0px 2px;
+    /* padding-bottom: 8px; */
+    margin: 0 6px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(17, 11, 11);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+nav{
+    padding: 9px;
+}
+/* Home section */
+#home{
+    /* height: 370px;  */
+    padding: 1px 7px;
+}
+
+
+
+#home p, #home p a{
+    font-size: 1rem;
+}
+#home div h1{
+    font-size: 60%;
+}
+#home ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    margin: auto;
+}
+
+#home ul li{ 
+    list-style: none;
+    /* font-size: 41%; */
+    text-align: center;
+}
+
+#home ul li a{
+    color: white;
+    display: block;
+    padding: 2px 3px;
+    border-radius: 10px;
+    font-size:0.5rem;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+#home ul li a:hover{
+    color:grey;
+    background-color: white;
+    cursor: pointer;
+    border: 3px solid white;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+/* Contact us section */
+#contact-box form{
+    width: 100%;
+    margin: 0px;
+}
+
+#contact{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#contact-box input{
+    width: 100%;
+    /* padding: 0.5rem; */
+    border-radius: 9px;
+    font-size: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.7rem;
+    /* color: rgb(107 164 230); */
+    margin: auto;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 0.9rem;
+   font-family: 'Baloo Bhai 2', cursive;
+   color: white;
+   font-weight: bold;
+   margin: auto;
+
+}
+#Classyear{
+    /* border: 3px solid black; */
+    border-radius: 6px;
+    font-size: 0.8rem;
+    padding: 4px;
+    font-family: 'Roboto', sans-serif;
+
+    /* color: rgb(107 164 230); */
+}
+/* #contact h1{
+    font-size: 1px;
+} */
+/* Footer */
+#footer{
+    text-align: center;
+    height: fit-content;
+    /* width: 100vw; */
+    font-size: 0.41rem;
+    background-color: black;
+    color: white;
+}
+
+/* Utility classes */
+
+.form-group{
+    text-align: center;
+    /* background-color: aqua; */
+    color:black;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+.btn{
+    font-size: 0.77rem;
+    padding: 4px 8px;
+    border-radius: 1px;
+}
+.header{
+    font-size: 1.51rem;
+}
+
+*{
+    /* padding: 1px 2px; */
+    align-items: center;
+    /* display: flex; */
+    align-self: center;
+    justify-content: center;
+}
